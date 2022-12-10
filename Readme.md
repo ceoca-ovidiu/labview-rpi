@@ -7,6 +7,21 @@
 - [Components](#components)
 - [Set Static IP Address](#static-ip)
 
+# Project Description
+
+This project contains multiple Virtual Instruments (VI) created with the help of LabVIEW in order to control various hardware devices. A simple diagram can be seen down below.
+
+![diagram](/media/diagram.svg)
+
+
+# VI Description
+
+## 1. rpi_labview_led_on_off
+
+This VI is used to simply turn on or off a led. From the page, the port which will be used for command can be selected, and there is a green button which sends the command to the led connected to RPi. 
+
+![rpi_led](/media/rpi_led.svg)
+
 # Apps Used
 
 - Windows OS: `10 Home build 19044`
