@@ -42,6 +42,8 @@ There is a button which acts like an input and increments a counter. The number 
 
 There is a code in *rpi_labview_project* that controls a relay which turns on or off a DC motor.
 
+![relay_diagram](/media/DC_engine.svg)
+
 ![relay](/media/relay.png)
 
 
