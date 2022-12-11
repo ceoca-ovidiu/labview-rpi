@@ -1,5 +1,11 @@
 # Table of Content
 
+- [Project Description](#project-description)
+- [VI Description](#vi-description)
+    - [rpi_labview_led_on_off](#1-rpi_labview_led_on_off)
+    - [number_to_binary](#2-number_to_binary)
+    - [relay](#3-relay-not-in-a-separate-vi)
+    - [rpi_labview_project](#3-rpi_labview_project)
 - [Apps used](#apps-used)
 - [Install Labview](#install-labview)
 - [Install Libraries](#install-libraries)
@@ -21,6 +27,29 @@ This project contains multiple Virtual Instruments (VI) created with the help of
 This VI is used to simply turn on or off a led. From the page, the port which will be used for command can be selected, and there is a green button which sends the command to the led connected to RPi. 
 
 ![rpi_led](/media/rpi_led.svg)
+
+![on_off_led](/media/on_off_led.png)
+
+## 2. number_to_binary
+
+There is a button which acts like an input and increments a counter. The number on the counter will then be displayed in binary format to 4 LEDs.
+
+![rpi_binary_leds](/media/binary_leds.svg)
+
+![number_leds](/media/number_leds.png)
+
+## 3. relay (not in a separate VI)
+
+There is a code in *rpi_labview_project* that controls a relay which turns on or off a DC motor.
+
+![relay](/media/relay.png)
+
+
+## 3. rpi_labview_project
+
+The final project VI is the one that contains all above.
+
+![final_project](/media/final_project.png)
 
 # Apps Used
 
